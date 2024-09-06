@@ -39,4 +39,7 @@ public class WordPairList {
     public ArrayList<WordPair> getAllPairs() {
         return allPairs;
     }
+    public void setAllPairs(ArrayList<WordPair> allPairs) {
+        this.allPairs = allPairs;
+    }
 }
